@@ -1,0 +1,13 @@
+version: 0.0
+os: windows
+files:
+  - source: .\applications
+    destination: C:\inetpub\wwwroot\applications
+  - source: .\conf-mgmt
+    destination: C:\inetpub\wwwroot\conf-mgmt
+  - source: .\load-balancing
+    destination: C:\inetpub\wwwroot\load-balancing
+  - source: .\utilities\aws-codedeploy-session-helper
+    destination: C:\inetpub\wwwroot\utilities\aws-codedeploy-session-helper
+  - source: .\version-control\git
+    destination: C:\inetpub\wwwroot\version-control\git
